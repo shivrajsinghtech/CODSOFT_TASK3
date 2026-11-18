@@ -23,6 +23,8 @@ Build a model that estimates a customer's **probability of leaving**, so a busin
 | Missing values / duplicates | 0 / 0 |
 | Class balance | 7,963 stayed (79.6%) · 2,037 churned (20.4%) |
 
+> **Data note:** This is a publicly available dataset (the "Churn Modelling" dataset on Kaggle), included here unmodified for reproducibility. It contains customer identifier fields (`RowNumber`, `CustomerId`, `Surname`). These fields are removed during preprocessing and are never used for model training or prediction.
+
 | Column | Type | Description |
 |---|---|---|
 | RowNumber, CustomerId, Surname | identifier | **Dropped**: they carry no predictive meaning |
